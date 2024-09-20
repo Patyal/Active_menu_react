@@ -42,7 +42,8 @@ function App() {
 
         <div id="tab-content">
           <ul>
-            {content[activeContentIndex].map((item)=> (<li key= {item}>{item}</li>))}
+            {content[activeContentIndex].map((item)=> 
+              (<li key= {item}> {item} </li>))}
           </ul>
         </div>
       </div>
